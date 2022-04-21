@@ -1,0 +1,36 @@
+body {
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    box-shadow: 5px 5px grey;
+    border: 2px black solid;
+    bottom: 1rem;
+}
+
+@media screen and (min-width: 990px) {
+    body {
+        flex-direction: column;
+    }
+    nav {
+        top: 0;
+    }
+}

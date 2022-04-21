@@ -1,0 +1,13 @@
+.card {
+    background-color: lavender;
+    min-height: 480px;
+    width: auto;
+    border: 2px black solid;
+    box-shadow: 2px 5px 4px #888888;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}

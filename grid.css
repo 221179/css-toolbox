@@ -1,0 +1,35 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: repeat(5, 20vh);
+    text-align: center;
+}
+
+#un {
+    grid-column: 1/5;
+    background-color: brown;
+}
+
+#trois {
+    grid-column: 2/4;
+    grid-row: 2/5;
+    background-color: red;
+}
+
+#deux,
+#quatre {
+    background-color: blanchedalmond;
+    grid-row: 2/5;
+}
+
+#cinq {
+    grid-column: 1/5;
+    grid-row: 5;
+    background-color: brown;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
